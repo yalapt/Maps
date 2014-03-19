@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>my_maps</title>
+		<meta charset="utf-8" />
+        <meta name="keywords" content="my_maps" />
+        <meta name="description" content="Projet my_maps" />
+        <meta name="author" content="Thomas YALAP">
+       <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+        <script language="javascript" type="text/javascript" src="../js/script.js"></script>
+	</head>
+	<body onload="initialize('pos0');">
+		<div id="header">
+			<ul>
+				<li><a href="../index.html">Acceuil</a></li>
+				<li><a href="cibles.html">Les cibles</a></li>
+				<li><a href="propos.html">A propos</a></li>
+				<li><a href="bonus.html">Bonus</a></li>
+			</ul>
+		</div>
+		<div id="divMap"></div>
+		<div>
+		<h1>La liste des cibles à éliminer</h1>
+		<a class="lien" onclick="initialize('pos5');">H: La planque</a><br />
+		<a class="lien" onclick="initialize('pos1');">1: Marc Wipulanantharajah, le bureau</a><br />
+		<a class="lien" onclick="initialize('pos2');">2: Mike Ticquantlouisin, l'entrepôt de transport de la drogue</a><br />
+		<a class="lien" onclick="initialize('pos3');">3: Hadibere Camara, l'entrepôt de fabrication de la drogue</a><br />
+		<a class="lien" onclick="initialize('pos4');">4: Germain Nguyen, la villa des Nguyen</a><br />
+		</div>
+		<div id="divTitlePanel"></div>
+		<div id="divPanel"></div>
+	</div>
+	<div id="footer">
+		<hr />
+		<p>Ministère de la Défense - DGSE : Direction générale de la Sécurité extérieure.</p>
+	<div>
+	</body>
+</html>

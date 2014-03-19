@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---- ----*/
+
+body {
+	margin: auto;
+	width: 800px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #ddd;
+}
+
+h1 {
+	height: 20px;
+	margin-bottom: 5px;
+	background-color: #333;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 15px;
+	text-align: center;
+}
+
+hr {
+	text-decoration: none;
+	border: solid #333 1px;
+}
+
+#header {
+	margin: auto; 
+	margin-top: 5px;
+	margin-bottom:5px; 
+	width: 800px;
+	height: 50px;
+	text-align: center;
+	background-color: #333;
+}
+
+#header ul {
+	height: 50px;
+	background-color: #333;
+}
+
+#header li {
+	margin: 15px -4px 0 -4px;
+	display: inline-block;
+}
+
+#header a {
+	text-decoration: none;
+	padding: 11px 63px 12px 66px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #333;
+}
+
+#header a:hover {
+	background-color: #666;
+}
+
+#header a:active {
+	background-color: #999;
+}
+
+#divMap {
+	height: 498px;
+	width: 798px;
+	margin: 0 0 5px 0;
+	border: solid 1px;
+	border-color: #333;
+}
+
+#divPanel {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+}
+
+#divTitlePanel {
+	margin-top: 5px;
+}
+
+.date {
+	text-align: right;
+	font-style: italic;
+	background-color: #fff;
+}
+
+.text {
+	padding: 5px;
+	background-color: #fff;
+}
+
+.infobulle {
+	width: 400px;
+	height: 250px;
+}
+
+.infobulle img {
+	display: inline-block;
+}
+
+.lien {
+	cursor: pointer;
+}
+
+#footer p {
+	font-size: 10px;
+	text-align: center;
+}
